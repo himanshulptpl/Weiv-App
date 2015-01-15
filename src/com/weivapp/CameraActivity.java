@@ -173,7 +173,7 @@ public class CameraActivity extends Activity implements OnClickListener {
 		});
 		// titleText = (TextView) findViewById(R.id.cam_title);
 		// titleText.setText("");
-
+//////
 		image.setOnClickListener(new OnClickListener() {
 
 			@Override
