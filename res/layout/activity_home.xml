@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="${packageName}.${activityClass}" >
+
+ <!--    <include 
+        android:id="@+id/cam_header"
+        layout="@layout/camera_headerbar"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"/> -->
+    <ListView 
+        android:id="@+id/user_activity_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cam_header"
+        android:layout_above="@+id/cam_footer"
+        android:divider="@null">
+       
+    </ListView>
+	<TextView 
+      android:id="@+id/txtEmpty"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:textColor="#fff"
+      android:gravity="center"
+      android:text="@string/no_user"
+      />
+    
+      <include 
+        android:id="@+id/cam_footer"
+        layout="@layout/camera_footer"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"/> 
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="${packageName}.${activityClass}" >
+
+ <!--  <include 
+      android:id="@+id/myheader"
+      layout="@layout/header_layout"
+      android:layout_alignParentTop="true"
+      
+      />
+  <ListView 
+      android:id="@+id/list_user"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/myheader"
+      android:divider="@android:drawable/divider_horizontal_dark">
+  </ListView> -->
+  <ListView 
+      android:id="@+id/list_user"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentTop="true"
+      android:divider="@android:drawable/divider_horizontal_dark">
+  </ListView>
+  <TextView 
+      android:id="@+id/txtEmpty"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:gravity="center"
+      android:text="@string/no_user"
+      />
+
+</RelativeLayout>

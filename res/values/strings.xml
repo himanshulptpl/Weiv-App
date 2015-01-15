@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    
+    <string name="app_name">Weiv</string>
+    <string name="hello_world">Welcome to Photo Gallery</string>
+    <string name="error">Error</string>
+    <string name="no_user">No user Available</string>
+    <string name="left">Go Back</string>
+    <string name="right">Go Next</string>
+    <string name="comment_here">Write comment here</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="ok">OK</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="title_activity_image_preview">ImagePreviewActivity</string>
+    <string name="success">Success</string>
+    <string name="stikker_label">Edit</string>
+    <string name="sharetext">Do you want to share this image on facebook ?</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_user_selection">Select User</string>
+    <string name="title_activity_home">Gallery</string>
+    
+<!--     <string name="APP_ID">1570381803177841</string>  -->
+    <string name="APP_ID">318783361643639</string>
+
+</resources>

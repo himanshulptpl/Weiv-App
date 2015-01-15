@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:focusable="true"
+        layout="@layout/header_layout" />
+
+    <ImageView
+        android:id="@+id/img_preview"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/header"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/title_activity_image_preview"
+        android:src="@android:drawable/picture_frame" />
+
+    <EditText
+        android:id="@+id/txt_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header"
+        android:ems="10"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@+id/img_preview"
+        android:hint="@string/comment_here"
+        android:textColor="#2B5A83"
+        android:textColorHint="#992B5A83"
+        android:singleLine="false" />
+
+</RelativeLayout>
